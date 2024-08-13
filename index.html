@@ -15,19 +15,22 @@
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Please type here.."
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Please type here.."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="clue">i.e: Woman, telephone or cassette></div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This project was coded by Sibo Gumbo
